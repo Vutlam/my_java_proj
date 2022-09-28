@@ -1,4 +1,4 @@
-package com.megh.cj;
+package com.megh.cj.basics;
 
 public class HelloWorld {
     public static void main(String[] args) {

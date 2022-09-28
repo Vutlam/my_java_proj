@@ -1,3 +1,5 @@
+package com.megh.cj.basics;
+
 import java.util.Scanner;
 
 public class SumOfTwoNumbers {
@@ -8,8 +10,8 @@ public class SumOfTwoNumbers {
         System.out.println("Enter the num2 :");
         int num2 = sc.nextInt();
         int sum = num1 + num2;
-        System.out.println(num1+ " + " +num2+ " = " +sum);
+        System.out.println(num1 + " + " + num2 + " = " + sum);
 
     }
-    }
+}
 

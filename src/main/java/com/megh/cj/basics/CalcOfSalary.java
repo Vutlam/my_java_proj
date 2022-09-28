@@ -1,22 +1,20 @@
+package com.megh.cj.basics;
+
 import java.util.Scanner;
 
 public class CalcOfSalary {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int no;
+        int empno;
         String name;
-        double monthlySalary,annualSalary;
-
+        double monthlySalary, annualSalary;
         System.out.println("Enter the employee no :");
-         no = sc.nextInt();
+        empno = sc.nextInt();
         System.out.println("Enter the employee name :");
-         name = sc.next();
+        name = sc.next();
         System.out.println("Enter the employee monthly salary :");
         monthlySalary = sc.nextDouble();
         annualSalary = monthlySalary * 12; //12 months in a year//
-        System.out.println("Annual salary of an Employee"+ " = " +monthlySalary+ " * " +12+ " = "+annualSalary);
-
-
-
+        System.out.println("Annual salary of an Employee" + " = " + monthlySalary + " * " + 12 + " = " + annualSalary);
     }
 }
